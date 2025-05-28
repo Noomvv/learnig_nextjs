@@ -6,7 +6,7 @@ const Post = ({post}) => {
             <Link href="/">Назад</Link>
             <h2>{post.title}</h2>
             <p>{post.body}</p>
-            <stromg>Autor I: {post.userID}D</stromg>
+            <stromg>Autor ID: {post.userId}</stromg>
         </div>
     )
 }
