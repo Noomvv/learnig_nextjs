@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Страница о нас",
+  description: "Страница о нас",
+  keywords: "о нас, информация, компания",
+};
+
 export default function About() {
   return (
     <div>
